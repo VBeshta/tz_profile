@@ -1,6 +1,6 @@
 # tz_profile
 
-A new Flutter project.
+Profile app
 
 ## Getting Started
 
