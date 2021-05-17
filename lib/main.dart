@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tz_profile/screens/log_in_screen.dart';
 
-import 'screens/profile_screen.dart';
-
 void main() {
   runApp(
     App(),
@@ -17,9 +15,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:
-          //LogInPage(),
-          ProfilePage(),
+      home: LogInPage(),
     );
   }
 }
