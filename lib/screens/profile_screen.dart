@@ -13,7 +13,7 @@ class ProfilePage extends StatefulWidget {
 
 class _ProfilePageState extends State<ProfilePage> {
   DateTime? _dateBirth;
-  dynamic _pickImageError;
+  //dynamic _pickImageError;
   File? _image;
 
   //late TextEditingController _inputNameController;
@@ -39,7 +39,7 @@ class _ProfilePageState extends State<ProfilePage> {
     super.dispose();
   }
 
-  Gender? _gender = Gender.man;
+  //Gender? _gender = Gender.man;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
